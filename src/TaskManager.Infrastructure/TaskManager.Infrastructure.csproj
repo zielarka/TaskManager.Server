@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="5.2.0" />
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+		<PackageReference Include="AutoMapper" Version="10.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+		<PackageReference Include="MediatR" Version="8.0.1" />
+		<PackageReference Include="NLog" Version="4.7.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\TaskManager.Core\TaskManager.Core.csproj" />
+	  <ProjectReference Include="..\TaskManager.Persistence.Migrations\TaskManager.Persistence.Migrations.csproj" />
+	</ItemGroup>
+
+</Project>
