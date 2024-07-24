@@ -23,8 +23,4 @@
 	  <ProjectReference Include="..\..\src\TaskManager.Infrastructure\TaskManager.Infrastructure.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Domain\" />
-	</ItemGroup>
-
 </Project>
